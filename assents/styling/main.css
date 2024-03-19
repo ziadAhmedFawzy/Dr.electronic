@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+:root {
+    --parent: #e4e0e1;
+    --main: #0159a3;
+    --last: #000;
+}
+
+body {
+    font-family: "cairo";
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 6px 1px #00000026;
+}
+
+header h1 img {
+    width: 75px;
+    margin: 10px;
+}
+
+.search {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.search select {
+    padding: 10px 20px;
+    width: 20%;
+    border: var(--main) 3px solid;
+    border-radius: 20px;
+}
+
+.search input {
+    padding: 10px 20px;
+    width: 70%;
+    border: var(--main) 3px solid;
+    border-radius: 20px;
+}
+
+.signing {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.signing button {
+    all: unset;
+    margin: 0 15px;
+    color: var(--main);
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: var(--main);
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    color: var(--parent);
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav li a {
+    color: var(--parent);
+    text-decoration: none;
+}
+
+.parent-1 {
+    display: flex;
+    margin: 10px;
+}
+
+.parent-1 .slide {
+    width: 20%;
+    border: 1px solid var(--parent);
+    box-shadow: 0 0 6px 1px #00000026;
+}
+
+.parent-1 .slide li {
+    width: 70%;
+    margin: 20px auto;
+    list-style: none;
+}
+
+.parent-1 .slide li i {
+    margin: 10px;
+}
+
+.parent-1 .slide li img {
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.parent-1 .slide li a {
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--main);
+}
+
+.parent-1 .display {
+    width: 80%;
+    height: 500px;
+    background-color: var(--last);
+    margin: 0 10px;
+}
+
+.parent-1 .display {
+    background-image: url("../hero/dr\ robot.jpg");
+    background-size: contain    ;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.parent-1 .display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parent-1 .display button {
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid var(--parent);
+    color: var(--main);
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #0000004b;
+}
