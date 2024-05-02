@@ -5,6 +5,24 @@
     box-sizing: border-box;
 }
 
+.display,
+.nav {
+    display: none;
+}
+
+.signed {
+    display: inline-block;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff !important;
+    background-color: #0159a3;
+    border-radius: 50%;
+}
+
 :root {
     --parent: #e4e0e1;
     --main: #0159a3;
@@ -53,8 +71,7 @@ header h1 img {
     text-align: right;
 }
 
-.signing button {
-    all: unset;
+.signing a {
     margin: 0 15px;
     color: var(--main);
     cursor: pointer;
@@ -275,3 +292,225 @@ nav li a {
     margin: 0 auto;
     box-shadow: 0 0 6px 1px #00000026;
 } 
+
+.trendy-box {
+    margin-top: 70px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: #00000026 1px solid;
+}
+
+.trendy-box .Trendy-left-img {
+    width: 50%;
+}
+
+.trendy-box .main-title {
+    width: 50%;
+}
+
+.trendy-box .main-title h3 {
+    border: #00000026 1px solid;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.trendy-box .main-title p {
+    text-align: center;
+}
+
+.trendy-box .main-title .desc1 {
+    letter-spacing: 10px;
+    font-weight: bold;
+    word-spacing: 3px;
+    font-size: 12px;
+}
+
+.trendy-box .main-title .desc2 {
+    color: #0000006b;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.trendy-box .main-title .check-all {
+    text-align: center;
+    margin: 30px;
+} 
+
+.trendy-box .main-title a {
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 15px;
+    background-color: #0073cf;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.trendy-box .main-title .products-trendy {
+    border: #0000004b 1px solid;
+    height: 300px;
+    position: relative;
+}
+
+.trendy-box .main-title .products-trendy button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+.trendy-box .main-title .products-trendy .move1  {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.trendy-box .main-title .products-trendy .move2  {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.Featured-Products {
+    width: 95%;
+    margin: 10px auto;
+    background-color: #0073cf;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.control {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control .child1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.control .child2 button {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #0159a3;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+.red-btn {
+    background-color: #bd2d2d !important;
+    color: #fff;
+}
+
+.cards-product {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    height: 400px;
+    background-color: #ddd;
+}
+
+.line {
+    width: 98%;
+    height: 1px;
+    background-color: #0000008e;
+    margin: 10px auto;
+}
+
+.container {
+    border: 1px solid #00000028;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.categ-sec {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.catee {
+    margin: 10px;
+}
+
+.addss {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.adds img {
+    width: 800px;
+    margin: 10px;
+}
+
+.brands {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    opacity: 0.8;
+    padding: 10px;
+    background-color: #eee;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 8px 14px 5px #00000047;
+    font-size: 20px;
+    background-color: #0073cf;
+    color: #fff;
+    padding: 50px;
+}
+
+footer div h5 {
+    font-size: 20px;
+}
+
+footer div ul li {
+    list-style: none;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+footer div ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer div ul li i {
+    margin-right: 20px;
+}
+
+.line-white {
+    width: 90%;
+    height: 1px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+

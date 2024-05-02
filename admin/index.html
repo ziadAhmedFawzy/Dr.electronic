@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products of DR.electronics</title>
+    <link rel="icon" href="../assents/logo/logo.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+<body>
+    <div class="logo"><img src="../assents/logo/logo.png" width="100" alt=""></div>
+    <h1>add <span class="style">product</span></h1>
+    <div class="box">
+        <div class="name-prod">
+            <input type="text" placeholder="product name" name="" id="NAME">
+        </div>
+        <div class="desc-prod">
+            <input type="text" placeholder="description product" name="" id="DESC">
+        </div>
+        <div class="price">
+            <input onkeyup="Total()" type="number" placeholder="price" name="" id="PRICE">
+            <input onkeyup="Total()" type="number" placeholder="ads" name="" id="ADS">
+            <input onkeyup="Total()" type="number" placeholder="tax" name="" id="TAX">
+            <input onkeyup="Total()" type="number" placeholder="descount" name="" id="DESCOUNT">
+            <span id="totalSpace" class="total"><span id="TOTAL">0</span> EGP</span>
+        </div>
+        <div class="nums-of-products">
+            <input type="number" placeholder="number of product" name="" id="NUMS_PRODUCT">
+        </div>
+        <div class="note-prod">
+            <input type="text" placeholder="take notes (..,..)" name="" id="NOTES">
+        </div>
+        <div class="categoryy">
+            <input type="text" placeholder="category" name="" id="CATEGORY">
+        </div>
+        <div class="img-prod">
+            <label for="MAIN_IMAGE">insert photo of product</label>
+            <input type="file" name="" hidden id="MAIN_IMAGE">
+        </div>
+        <button id="make">save</button>
+    </div>
+    <div id="DATA" class="data">
+        <h2>DATA</h2>
+        <div class="showw">
+            <table>
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>price</th>
+                        <th>tax</th>
+                        <th>ads</th>
+                        <th>descount</th>
+                        <th>total</th>
+                        <th>product nums</th>
+                        <th>category</th>
+                    </tr>
+                </thead>
+                <tbody id="showDATA"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>

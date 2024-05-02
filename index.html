@@ -7,13 +7,36 @@
     <!-- write here your description's website -->
     <meta name="description" content="">
     <link rel="stylesheet" href="assents/styling/main.css">
+    <link rel="stylesheet" href="assents/styling/responsive.css">
     <title>Dr.Robot</title>
     <link rel="icon" href="assents/logo/logo.png">
     <script src="https://kit.fontawesome.com/edb08315aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="display">
+        <h1><img src="assents/logo/logo.png" alt="logo"></h1>
+        <div class="search">
+            <select name="" id="">
+                <!-- here add categories -->
+                <option value="All-categories">All-categories</option>
+                <option value="BOARDS">boards</option>
+                <option value="BREADBOARD">breadboard</option>
+                <option value="LEDS">LEDs</option>
+                <option value="WIRES">wires</option>
+                <option value="SMD">SMD</option>
+                <option value="PLC">PLC</option>
+            </select>
+            <input type="text" name="search" placeholder="search" id="search_nav">
+        </div>
+        <div class="signing">
+            <button id="sign" class="sign"><i class="fa-regular fa-user"></i></button>
+            <button id="like"><i class="fa-regular fa-heart"></i></button>
+            <button id="basket"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+    </div>
     <header>
         <h1><img src="assents/logo/logo.png" alt="logo"></h1>
+        <button id="navBar" class="nav"><i class="fa-solid fa-bars"></i></button>
         <div class="search">
             <select name="" id="">
                 <!-- here add categories -->
@@ -28,9 +51,9 @@
             <input type="text" name="search" placeholder="search" id="SEARCH">
         </div>
         <div class="signing">
-            <button id="sign" class="sign"><i class="fa-regular fa-user"></i></button>
-            <button id="like"><i class="fa-regular fa-heart"></i></button>
-            <button id="basket"><i class="fa-solid fa-bag-shopping"></i></button>
+            <a href="sign/login/index.html" id="signed"><i class="fa-regular fa-user"></i></a>
+            <a href="sign/login/index.html" id="like"><i class="fa-regular fa-heart"></i></a>
+            <a href="sign/login/index.html" id="basket"><i class="fa-solid fa-bag-shopping"></i></a>
         </div>
     </header>
     <nav>
@@ -122,6 +145,130 @@
             </div>
         </div>
         </div>
-    </div>  
+    </div>
+    <div class="trendy-box">
+        <div class="Trendy-left-img">
+            <img src="assents/products/4lu-Slim-Organizer-Set-2-1249x1248.jpg" alt="">
+        </div>
+        <div class="main-title">
+            <h3 class="title-box">SUPER BAG Tools</h3>
+            <p class="desc1">HIGH QUALITY Boxes</p>
+            <p class="desc2">Various types of High-quality Super-Bag products,
+                including toolboxes, organizers, and storage bins, for different needs and preferences.</p>
+            <div class="products-trendy">
+            <button class="move1"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="move2"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div class="check-all">
+                <a href="#">check all</a>
+            </div>
+        </div>
+    </div>
+    <div class="Featured-Products">
+        <h2>Featured Products</h2>
+    </div>
+    <div class="container">
+        <div class="control">
+            <div class="child1"><p>New - Best selling - Top Rated</p></div>
+            <div class="child2">
+                <button class="red-btn" id="newProudct">new products</button>
+                <button id="bestSelling">best selling</button>
+                <button id="topRate">top rated</button>
+            </div>
+        </div>
+        <div id="cardsBox" class="cards-product">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </div>
+    <div class="Featured-Products">
+        <h2>Featured Categories</h2>
+    </div>
+    <div class="categ-sec">
+        <div class="catee">
+            <a href="#">
+                <img src="assents/fetured_categories/1.webp" alt="">
+            </a>
+        </div>
+        <div class="catee">
+            <a href="#">
+                <img src="assents/fetured_categories/2.webp" alt="">
+            </a>
+        </div>
+        <div class="catee">
+            <a href="#">
+                <img src="assents/fetured_categories/3.webp" alt="">
+            </a>
+        </div>
+        <div class="catee">
+            <a href="#">
+                <img src="assents/fetured_categories/4.webp" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="addss">
+        <div class="adds">
+            <a href="#">
+                <img src="assents/fetured_categories/5.webp" alt="">
+            </a>
+        </div>
+        <div class="adds">
+            <a href="#">
+                <img src="assents/fetured_categories/6.webp" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="brands">
+        <div class="img">
+            <img src="assents/brands/proskit.webp" alt="">
+        </div>
+        <div class="img">
+            <img src="assents/brands/raspberry-pi-logo-website.webp" alt="">
+        </div>
+        <div class="img">
+            <img src="assents/brands/total.webp" alt="">
+        </div>
+        <div class="img">
+            <img src="assents/brands/sanwa-logo.webp" alt="">
+        </div>
+        <div class="img">
+            <img src="assents/brands/uni-t.webp" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="child1">
+            <img src="assents/hero/dr robot.jpg" width="300" alt="">
+        </div>
+        <div class="child2">
+            <h5>PAGES</h5>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+                <li><a href="#">my account</a></li>
+            </ul>
+        </div>
+        <div class="child2">
+            <h5>CONTACT US</h5>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i> Hotline: +20 0000 000 000</li>
+                <li><i class="fa-solid fa-envelope"></i> Email: user@gmail.com</li>
+                <li><i class="fa-brands fa-facebook"></i> facebook: </li>
+                <li><i class="fa-brands fa-whatsapp"></i> whatssApp: </li>
+            </ul>
+        </div>
+        <div class="line-white"></div>
+        <p class="copy-right">Copyright Reserved 2023 &copy; DR.ROBOT.</p>
+    </footer>
+    <script src="assents/script/index.js"></script>
 </body>
 </html>

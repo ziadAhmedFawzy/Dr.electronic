@@ -1,0 +1,60 @@
+@media screen and (max-width: 864px) {
+    body {
+        margin: 30px 0;
+    }
+    .child2 {
+        width: 80%;
+        text-align: center;
+    }
+    .child1 {
+        width: 70%;
+        height: 350px;  
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .action button,
+    .action a {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .child2 {
+        font-size: 13px;
+    
+    }
+    .child2 img {
+        width: 100px;
+    }
+
+    .child1 input {
+        width: 60%;
+    }
+    .action button,
+    .action a {
+        padding: 5px;
+    }
+    .forget {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .child1 img {
+        width: 75px;
+    }
+    #message {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .action button,
+    .action a {
+        font-size: 12px;
+    }
+    .child1 {
+        padding: 20px 5px;
+        height: 350px;
+    }
+}

@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: "cairo";
+}
+
+input {
+    text-transform: lowercase !important;
+}
+
+body {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #0080e9;
+}
+
+.box {
+    padding: 20px 50px;
+    width: 60%;
+    border-radius: 10px;
+    height: 900px;
+    background-color: #ffffff;
+    color: #0159a3;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.box label {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.box input:focus {
+    outline: none;
+}
+
+.box input {
+    display: block;
+    padding: 5px;
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: none;
+    color: #0080e9;
+    border-bottom: 2px solid #0159a3;
+}
+
+.box .pass input {
+    width: 75%;
+    display: inline-block;
+    margin-left: 10%;
+    border-right: transparent 1px solid;
+    border-bottom: 2px solid #0159a3;
+    margin-right: 0;
+}
+
+.box .pass button {
+    border: transparent;
+    padding: 5px;
+    position: relative;
+    right: 5px;
+    cursor: pointer;
+    border-left-color: transparent;
+    background-color: transparent;
+    color: #0159a3;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    color: #0b5796ba;
+    margin: 1px auto;
+}
+
+.signing {
+    width: 30%;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #04579c;
+    color: #ffffff;
+    border: transparent;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.signing:hover {
+    background-color: #0080e9;
+}
+
+.hidden {
+    display: none;
+}

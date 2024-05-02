@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: "cairo";
+}
+
+input {
+    text-transform: lowercase !important;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color: #eef2ff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#message {
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 600;
+    color: #fa5050ee;
+}
+
+.telling {
+    text-align: left;
+    width: 85%;
+    margin: auto;
+}
+
+.child1 {
+    width: 400px; 
+    height: 400px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px 3px #0000002e;
+    padding: 20px;
+    border-radius: 5px 40px;
+    margin: 20px;
+}
+
+.child1 input {
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #0159a3;
+    background-color: transparent;
+}
+
+.child1 button {
+    border: none;
+    background-color: transparent;
+    color: #0159a3;
+}
+
+.child2 {
+    width: 300px;
+    margin: 20px;
+}
+
+.child2 img {
+    width: 200px;
+}
+
+.action {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.action button,
+.action a {
+    margin: 0 20px 0 0;
+    padding: 10px 20px;
+    background-color: #0159a3;
+    color: #eef2ff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.action button:hover {
+    background-color: #002a4d;
+
+}
+
+.action a {
+    border: 1px solid #0159a3;
+    background-color: transparent;
+    color: #0159a3;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.action a:hover {
+    background-color: #0e7ed9;
+    border: transparent;
+    color: #eef2ff;
+}
+
+.forget {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
